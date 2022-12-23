@@ -20,6 +20,9 @@ main {
     min-height: 100vh;
 }
 
+.carousel-caption>a{
+    display: none;
+}
 
 .home {
     display: flex;
@@ -102,6 +105,11 @@ a {
 
 .button1>ion-icon {
     font-size: 40px;
+}
+
+h6{
+    font-size: 2rem !important;
+    margin-bottom: 0px !important;
 }
 
 .button1:hover {
@@ -199,7 +207,7 @@ a {
     --button_radius: 0.75em;
     --button_color: #e8e8e8;
     --button_outline_color: #000000;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     border: none;
     border-radius: var(--button_radius);
@@ -376,8 +384,8 @@ nav li a {
     }
 
     .carousel-caption {
-        width: 35%;
-        margin-left: 17%;
+        width: 40%;
+        margin-left: 15%;
         padding-top: 0.7rem !important;
         padding-bottom: 0.4rem !important;
     }
@@ -447,13 +455,17 @@ nav li a {
         justify-content: flex-end;
         padding-bottom: 5rem;
     }
+    
+    h6{
+        font-size: 1rem !important;
+    }
 
     main>img {
         right: 38%;
     }
 
     .card1 {
-        width: 180px;
+        width: 170px;
     }
 
     .skills {
@@ -471,6 +483,10 @@ nav li a {
 
     .btn1{
         display: none;
+    }
+
+    .carousel-caption{
+        height: 4.2rem;
     }
     .carousel-caption>a{
         display: inline-block;
