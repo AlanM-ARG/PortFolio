@@ -369,3 +369,118 @@ nav li a {
     color: #ccc;
     text-decoration: none;
 }
+
+@media screen and (max-width: 1024px) {
+    .main1>h2 {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        width: 35%;
+        margin-left: 17%;
+        padding-top: 0.7rem !important;
+        padding-bottom: 0.4rem !important;
+    }
+
+    .button_top {
+        padding: 0.2em 0.5em;
+    }
+
+    .skills {
+        gap: 1rem;
+        width: 80vw;
+    }
+
+    footer>div{
+        width: 25vw;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        padding: 1.5rem;
+    }
+
+    #content{
+        min-height: 170vh;
+    }
+
+    .carousel {
+        width: 80vw;
+    }
+
+
+}
+
+@media screen and (max-width: 768px){
+    .main1{
+        width: 35vw;
+    }
+
+    .main2{
+        width: 33vw;
+    }
+
+    .carousel{
+        width: 90vw;
+    }
+
+    .skills{
+        width: 90vw;
+    }
+
+    footer>div{
+        width: 35vw;
+    }
+
+    #content{
+        min-height: 130vh;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .main2{
+        display: none;
+    }
+
+    .main1{
+        width: 100vw;
+        justify-content: flex-end;
+        padding-bottom: 5rem;
+    }
+
+    main>img{
+        right: 38%;
+    }
+
+    .card1{
+        width: 180px;
+    }
+    .skills{
+        gap: .5rem;
+    }
+    #content {
+        min-height: 155vh;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .card1{
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    main>img{
+        right: 33%;
+    }
+    .carousel {
+     width: 95vw;
+    }
+    .skills{
+        width: 95vw;
+    }
+
+    .card1{
+        width: 145px;
+    }
+}
