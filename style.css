@@ -468,11 +468,21 @@ nav li a {
     .carousel {
         width: 95vw;
     }
+
+    .btn1{
+        display: none;
+    }
+    .carousel-caption>a{
+        display: inline-block;
+    }
 }
 
 @media screen and (max-width: 375px) {
     .card1 {
-        width: 160px;
+        width: 150px;
+    }
+    .carousel-caption{
+        border-radius: 10px;
     }
 }
 

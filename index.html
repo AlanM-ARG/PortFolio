@@ -23,16 +23,6 @@
         </a>
         <main>
             <img style="position: absolute;" class="mx-4 my-4" width="60" src="./src/21-removebg-preview.png" alt="m">
-            <!-- <input type="checkbox" name="nav-btn" id="nav-btn" />
-            <span></span>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav> -->
             <div class="home">
                 <div class="main1">
                     <h1>Alan Morua</h1>
@@ -59,27 +49,28 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./src/lightbank.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <button type="button" class="btn1 mb-2" @click="lightbank"><span
-                                    class="button_top">LightBank</span></button>
-                            <h5>Homebanking</h5>
+                        <div class="carousel-caption d-md-block">
+                            <h6 class="text-white">LightBank</h6>
+                            <button type="button" @click="lightbank" class="btn1 mb-2"><span class="button_top">See More...</span></button>
+                            <a class="text-white" href="#" @click="lightbank">See More...</a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="./src/indiapetshop1.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <button type="button" @click="indiaPetShop" class="btn1 mb-2"><span class="button_top">India
-                                    Petshop</span></button>
-                            <h5>e-Commerce</h5>
+                        <div class="carousel-caption d-md-block">
+                            <h6 class="text-white">India PetShop</h6>
+                            <a class="text-white" href="#" @click="indiaPetShop">See More...</a>
+                            <button type="button" @click="indiaPetShop" class="btn1 mb-2"><span class="button_top">See More...</span></button>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="./src/thewinest.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption theWinest d-none d-md-block">
+                        <div class="carousel-caption theWinest d-md-block">
+                            <h6 class="text-white">The Winest</h6>
+                            <a class="text-white" href="#" @click="theWinest">See More...</a>
                             <button type="button" @click="theWinest" class="btn1 mb-2" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal2" data-bs-whatever="@getbootstrap"><span
-                                    class="button_top">The Winest</span></button>
-                            <h5>e-Commerce</h5>
+                                    class="button_top">See More...</span></button>
                         </div>
                     </div>
                 </div>
