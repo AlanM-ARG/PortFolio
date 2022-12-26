@@ -77,6 +77,13 @@ createApp({
 
     },
     mounted() {
+            window.onload = ()=>{
+                let loader = document.querySelector('#onload').style
+                let hidden = document.querySelector('body')
+                hidden.classList.remove("hidden")
+                loader.opacity = 1;
+                (function fade(){(loader.opacity-=.1)<0?loader.display="none":setTimeout(fade,40)})();
+            }
 
     },
 }).mount('#app')
