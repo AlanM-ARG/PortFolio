@@ -109,7 +109,18 @@ a {
 
 h6{
     font-size: 2rem !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 5px !important;
+    background-color: rgba(73, 92, 131, 0.744);
+    border-radius: 10px !important;
+    padding: 8px;
+}
+
+.carousel-caption{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+
 }
 
 .button1:hover {
@@ -185,13 +196,6 @@ h6{
 
 .carousel {
     width: 60vw;
-}
-
-.carousel-caption {
-    background-color: rgba(73, 92, 131, 0.637);
-    width: 30%;
-    margin-left: 20%;
-    border-radius: 2rem;
 }
 
 .carousel-caption>h5 {
@@ -378,26 +382,7 @@ nav li a {
     text-decoration: none;
 }
 
-@media screen and (max-width: 1024px) {
-    .main1>h2 {
-        text-align: center;
-    }
-
-    .carousel-caption {
-        width: 40%;
-        margin-left: 15%;
-        padding-top: 0.7rem !important;
-        padding-bottom: 0.4rem !important;
-    }
-
-    .button_top {
-        padding: 0.2em 0.5em;
-    }
-
-    .skills {
-        gap: 1rem;
-        width: 80vw;
-    }
+@media screen and (max-width: 1340px) {
 
     footer>div {
         width: 25vw;
@@ -408,13 +393,52 @@ nav li a {
         padding: 1.5rem;
     }
 
+}
+@media screen and (max-width: 1280px) {
+    .main1>h2 {
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width: 1175px) {
+
+.main1{
+    width: 38vw;
+}
+
+.skills{
+    width: 80vw;
+}
+
+.carousel {
+    width: 80vw;
+}
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .button_top {
+        padding: 0.2em 0.5em;
+    }
+
+    .skills {
+        gap: 1rem;
+    }
+
+
+
+
+
     #content {
         min-height: 170vh;
     }
 
-    .carousel {
-        width: 80vw;
-    }
+
 
 
 }
@@ -445,7 +469,7 @@ nav li a {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 428px) {
     .main2 {
         display: none;
     }
@@ -485,9 +509,6 @@ nav li a {
         display: none;
     }
 
-    .carousel-caption{
-        height: 4.2rem;
-    }
     .carousel-caption>a{
         display: inline-block;
     }
@@ -496,9 +517,6 @@ nav li a {
 @media screen and (max-width: 375px) {
     .card1 {
         width: 150px;
-    }
-    .carousel-caption{
-        border-radius: 10px;
     }
 }
 

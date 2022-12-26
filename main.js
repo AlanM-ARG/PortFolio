@@ -56,6 +56,21 @@ createApp({
                     'src="./src/Captura de pantalla (192).png" style="width:100%;" alt="Technologies">'
             })
         },
+        portfolio(){
+            Swal.fire({
+                width: 600,
+                padding: '1em',
+                background: '#252525',
+                html: '<h2 >Portfolio</h2>' +
+                    '<h5 style="text-align: start;" class=" text-white">Category: Portfolio</h5>' +
+                    '<h5 style="text-align: start;" class=" text-white">Start Date: 20/12/2022</h5>' +
+                    '<h5 style="text-align: start;" class=" text-white">End Date: 26/12/2022</h5>' +
+                    '<h5 style="text-align: start;" class=" text-white">Repository: <a target="_blank" href="https://github.com/AlanM-ARG/PortFolio">GitHub</a></h5>' +
+                    '<h5 style="text-align: start;" class=" text-white">Teamwork: No</h5>' +
+                    '<h5 style="text-align: start;" class="d-flex justify-content-start align-items-center gap-2 flex-wrap text-white">Technologies: <img ' +
+                    'src="./src/Captura de pantalla (196).png" style="width:100%;" alt="Technologies">'
+            })
+        }
     },
 
     computed: {
