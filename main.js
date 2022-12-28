@@ -70,6 +70,7 @@ createApp({
                     '<h5 style="text-align: start;" class="d-flex justify-content-start align-items-center gap-2 flex-wrap text-white">Technologies: <img ' +
                     'src="./src/Captura de pantalla (191).png" style="width:100%;" alt="Technologies">'
             })
+        
         }
     },
 
