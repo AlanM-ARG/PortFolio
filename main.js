@@ -19,7 +19,7 @@ createApp({
                     '<h5 style="text-align: start;" class=" text-white">End Date: 22/11/2022</h5>' +
                     '<h5 style="text-align: start;" class=" text-white">Repository: <a target="_blank" href="https://github.com/AlanM-ARG/LightBank">GitHub</a></h5>' +
                     '<h5 style="text-align: start;" class=" text-white">Teamwork: No</h5>' +
-                    '<h5 style="text-align: start;" class=" text-white">Video URL: <a href="https://youtu.be/REFon2IjOaA" target="_blank">YouTube</a></h5>' +
+                    '<h5 style="text-align: start;" class=" text-white">Video URL: <a href="https://youtu.be/OMfioNfoXHo" target="_blank">YouTube</a></h5>' +
                     '<h5 style="text-align: start;" class="d-flex justify-content-start align-items-center gap-2 flex-wrap text-white">Technologies: <img ' +
                     'src="./src/Captura de pantalla (190).png" style="width:100%;"  alt="Technologies">'
             })
@@ -51,7 +51,7 @@ createApp({
                     '<h5 style="text-align: start;" class=" text-white">End Date: 02/12/2022</h5>' +
                     '<h5 style="text-align: start;" class=" text-white">Repository: <a target="_blank" href="https://github.com/AlanM-ARG/wines">GitHub</a></h5>' +
                     '<h5 style="text-align: start;" class=" text-white">Teamwork: Yes</h5>' +
-                    '<h5 style="text-align: start;" class=" text-white">Video URL: <a href="https://www.youtube.com/watch?v=VcxdUpXM8PM" target="_blank">YouTube</a></h5>' +
+                    '<h5 style="text-align: start;" class=" text-white">Video URL: <a href="https://www.youtube.com/watch?v=4obF2sOPCYM" target="_blank">YouTube</a></h5>' +
                     '<h5 style="text-align: start;" class="d-flex justify-content-start align-items-center gap-2 flex-wrap text-white">Technologies: <img ' +
                     'src="./src/Captura de pantalla (192).png" style="width:100%;" alt="Technologies">'
             })
