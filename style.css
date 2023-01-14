@@ -518,7 +518,7 @@ nav li a {
     }
 
     #content {
-        min-height: 130vh;
+        min-height: 155vh;
     }
 }
 
@@ -551,7 +551,7 @@ nav li a {
     }
 
     #content {
-        min-height: 155vh;
+        min-height: 170vh;
     }
 
     .carousel {
@@ -564,6 +564,14 @@ nav li a {
 
     .carousel-caption>a {
         display: inline-block;
+    }
+    .carousel-indicators{
+        display: none !important;
+    }
+
+    .carousel-caption{
+        padding-bottom: 0.25rem !important;
+        bottom: 0 !important;
     }
 }
 
